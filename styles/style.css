@@ -1,0 +1,139 @@
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header {
+    padding: 50px 0 60px 0;
+}
+header .navbar {
+    margin: 0 0 0 500px;
+}
+.navbar-li a {
+    margin: 0 25px 0 0;
+    color: #707070;
+    font-size: 20px;
+    font-family: 'ArchyEDT-Thin';
+}
+.bg {
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/სლაიდერი3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 0 140px 0;
+}
+.section-title {
+    margin: 0 0 65px 0;
+    color: #707070;
+    font-size: 40px;
+    font-family: 'ArchyEDT-Thin'
+}
+.box {
+    width: 340px;
+    height: 400px;
+    box-shadow: 0 3px 6px #000000;
+    margin: 0 50px 0 0;
+}
+.box:last-child {
+    margin: 0;
+}
+.box img {
+    width: 100%;
+}
+.box-text {
+    padding: 25px 10px 35px 10px;
+}
+.box-text h3 {
+    margin: 0 0 30px 0;
+    color: #707070;
+    font-size: 30px;
+    font-family: 'ArchyEDT-Thin';
+}
+.box-text p {
+    color: #707070;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'ZapfDingbats';
+}
+.load {
+    width: 100%;
+    height: 40px;
+    margin: 60px 0;
+    text-align: center;
+}
+.load a {
+    text-decoration: underline;
+    color: #707070;
+    font-size: 30px;
+    font-family: 'ArchyEDT-Thin';
+}
+footer {
+    padding: 50px 0;
+    margin: 60px 0 0 0;
+    background-color: #2E2E2E;
+}
+.footer-li {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'ArchyEDT-Thin';
+}
+.footer-li:first-child {
+    font-size: 20px;
+}
+.socialIcon li {
+    display: inline;
+    margin: 0 30px 0 0;
+}
+.socialIcon li:last-child {
+    margin: 0;
+}
+
+@media (max-width:480px) {
+    .flex {
+        justify-content: center;
+        align-items: center;
+    }
+    header .flex {
+        justify-content: space-around;
+    }
+    .bg {
+        background-image: url(../images/yannis-papanastasopoulos-yWF2LLan-_o-unsplash.jpg);
+    }
+    .box {
+        margin: 0 0 30px 0;
+    }
+    nav {
+        display: none;
+    }
+    .section-title {
+        text-align: center;
+    }
+    nav ul:last-child {
+        display: block;
+    }
+    footer .logo {
+        display: none;
+    }
+    footer .flex {
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer  ul {
+        margin: 40px 0;
+    }
+    footer ul li {
+        text-align: center;
+    }
+
+    
+}
